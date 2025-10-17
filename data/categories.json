@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "name": "网络问题",
+      "notice": "所有网络相关问题请先检查物理连接",
+      "file": "network.json"
+    },
+    {
+      "name": "硬件问题",
+      "subcategories": [
+        {
+          "name": "服务器",
+          "ssubcategories": [
+            {
+              "name": "存储设备",
+              "faults": [
+                {
+                  "code": "HW-001",
+                  "title": "磁盘故障",
+                  "description": "服务器磁盘出现坏道",
+                  "severity": "高"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

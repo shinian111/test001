@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "name": "连接问题",
+      "notice": "连接问题通常与配置或物理连接有关",
+      "subcategories": [
+        {
+          "name": "无线网络",
+          "faults": [
+            {
+              "code": "NET-001",
+              "title": "WiFi连接失败",
+              "description": "无法连接到无线网络",
+              "severity": "高"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
